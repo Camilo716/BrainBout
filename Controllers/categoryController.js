@@ -1,5 +1,4 @@
 class CategoryController {
-
     constructor() {
         this.categories = []
         this.loadCategories

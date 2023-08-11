@@ -1,10 +1,10 @@
-class Categoria {
-    constructor(id, nombre) {
+class Category {
+    constructor(id, name) {
         this.id = id;
-        this.nombre = nombre;
+        this.name = name;
         this.questionsIds = questionsIds
     }
 }
 
-export { Categoria, categorias };
+export { Category, categories };
 

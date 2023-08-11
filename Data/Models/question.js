@@ -1,11 +1,11 @@
-class Pregunta {
-    constructor(id, texto, opciones, categoriaId, respuestaCorrecta) {
+class Question {
+    constructor(id, text, options, categoryId, correctAnswerIndex) {
         this.id = id;
-        this.texto = texto;
-        this.opciones = opciones;
-        this.categoriaId = categoriaId;
-        this.respuestaCorrecta = respuestaCorrecta;
+        this.text = text;
+        this.options = options;
+        this.categoryId = categoryId;
+        this.correctAnswerIndex = correctAnswerIndex;
     }
 }
 
-export { Pregunta, preguntas };
+export { Question, questions };
