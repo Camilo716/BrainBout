@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Ciencia",
+      "questionsIds": []
+    },
+    {
+      "id": 2,
+      "name": "Deportes",
+      "questionsIds": []
+    },
+    {
+      "id": 3,
+      "name": "Cine y arte",
+      "questionsIds": []
+    },
+    {
+      "id": 4,
+      "name": "Desarrollo de software",
+      "questionsIds": []
+    }
+]
