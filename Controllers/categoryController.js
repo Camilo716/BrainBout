@@ -4,7 +4,14 @@ class CategoryController {
         this.loadCategories
     }
 
-    loadCategories() {  
+    async loadCategories() { 
+        try {
+            const response = await fetch('data/categories.json');
+            const categoriesData = await response.json();
+            this.categories = categoriesData;
+        } catch (error) {
+            console.error("Error loading categories:", error);
+        } 
     }
 
     getCategoryById(categoryId) {
